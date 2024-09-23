@@ -1,0 +1,171 @@
+[data-v-058781ab] {
+	margin: 0;
+	padding: 0
+}
+
+.selected[data-v-058781ab] {
+	color: #4b4a52 !important
+}
+
+.visibility_hidden[data-v-058781ab] {
+	visibility: hidden
+}
+
+.content[data-v-058781ab] {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff;
+	overflow-y: auto
+}
+
+.content .hanzi_top_box[data-v-058781ab] {
+	height: 3.2rem;
+	width: 100%
+}
+
+.content .hanzi_top_box .hanzi_top[data-v-058781ab] {
+	height: 2.77rem;
+	width: 100%;
+	padding-left: .3rem;
+	box-sizing: border-box;
+	overflow-x: auto;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap
+}
+
+.content .hanzi_top_box .hanzi_top .center_box[data-v-058781ab] {
+	-ms-flex-order: 1;
+	order: 1;
+	width: 2.16rem;
+	height: 100%;
+	padding-top: .1rem;
+	box-sizing: border-box;
+	margin-right: .3rem
+}
+ 
+@font-face
+
+{
+
+ font-family: 'GreatWall Chinese simkai';
+ src: local('GreatWall Chinese simkai'),url('http://localhost/CustomFont/GreatWallChineseSimkai.ttf') format('opentype')
+
+}
+
+.content .hanzi_top_box .hanzi_top .center_box .centenr_box_top[data-v-058781ab] {
+	width: 100%;
+	font-size: .4rem;
+	text-align: center;
+	color: #fff;
+	line-height: .5rem;
+	font-family: 'GreatWall Chinese simkai';
+	
+}
+
+.content .hanzi_top_box .hanzi_top .center_box .centenr_box_bottom[data-v-058781ab] {
+	width: 2.06rem;
+	height: 2.06rem;
+	line-height: 2.1rem;
+	background: url(../../static/img/田字格.9e2f6bb.png) no-repeat 50%;
+	background-size: 100% 100%;
+	text-align: center;
+	font-weight: 700;
+	color: #d0d0d0;
+	font-size: 1.6rem;
+	font-family: 'GreatWall Chinese simkai';
+	
+}
+
+.content .hanzi_top_box .hanzi_top[data-v-058781ab]::-webkit-scrollbar {
+	width: .03rem;
+	height: 0
+}
+
+.content .hanzi_top_box .hanzi_top[data-v-058781ab]::-webkit-scrollbar-thumb {
+	background: #d0d0d0
+}
+
+.content .hanzi_top_box .hanzi_top[data-v-058781ab]::-webkit-scrollbar-track {
+	background: #a2b969
+}
+
+.content .hanzi_top_box .gundong[data-v-058781ab] {
+	margin: 0 auto;
+	width: .6rem;
+	height: .1rem;
+	border-radius: .3rem
+}
+
+.content .hanzi_top_box .gundong .gundong_box[data-v-058781ab] {
+	border-radius: .3rem;
+	height: 100%
+}
+
+.content .hanzi_bottom[data-v-058781ab] {
+	margin-top: -.24rem;
+	background: #fff;
+	border-top-left-radius: .24rem;
+	border-top-right-radius: .24rem;
+	padding-top: .4rem;
+	box-sizing: border-box
+}
+
+.content .hanzi_bottom .hanzi_xiangxi[data-v-058781ab] {
+	margin-top: -.2rem;
+	margin-bottom: .1rem;
+	padding: 0 .7rem;
+	box-sizing: border-box;
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	font-size: .3rem
+}
+
+.content .hanzi_bottom .hanzi_xiangxi .box[data-v-058781ab] {
+	-ms-flex-order: 1;
+	order: 1
+}
+
+.content .hanzi_bottom #character_target_div[data-v-058781ab] {
+	margin: auto;
+	width: 290px;
+	height: 290px;
+	background: url(../../static/img/田字格.9e2f6bb.png) no-repeat 50%;
+	background-size: 100% 100%
+}
+
+.content .hanzi_bottom .btns[data-v-058781ab] {
+	overflow: hidden;
+	margin-top: .4rem;
+	font-size: .3rem
+}
+
+.content .hanzi_bottom .btns div[data-v-058781ab] {
+	width: 2.8rem;
+	height: .88rem;
+	line-height: .88rem;
+	border-radius: .14rem;
+	text-align: center
+}
+
+.content .hanzi_bottom .btns div[data-v-058781ab]:first-child {
+	float: left;
+	margin-left: .8rem
+}
+
+.content .hanzi_bottom .btns div[data-v-058781ab]:nth-child(2) {
+	float: right;
+	margin-right: .8rem
+}
