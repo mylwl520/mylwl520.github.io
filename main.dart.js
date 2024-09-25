@@ -116599,11 +116599,13 @@ r=s.e
 r.a9$=$.aB()
 r.S$=0
 s.az()},
-E(a){var s,r=null,q=A.bp(a,r,t.l).w.a.a
+E(a){var s,r,q=null,p=A.bp(a,q,t.l).w.a.a
 this.a.toString
-s=this.e
-s===$&&A.b()
-return A.E(r,new A.CK(s,r),B.e,B.k8,r,r,q/1.7777777777777777,r,r,r,q)}}
+s=p/1.7777777777777777
+if(s>500)s=500
+r=this.e
+r===$&&A.b()
+return A.E(q,new A.CK(r,q),B.e,B.k8,q,q,s,q,q,q,p)}}
 A.aUh.prototype={
 $2(a,b){var s=null
 return A.E(s,s,B.e,B.m8,s,s,s,s,s,s,s)},
